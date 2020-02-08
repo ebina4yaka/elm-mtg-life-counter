@@ -1,0 +1,85 @@
+body {
+  user-select: none;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.player {
+  font-size: 30vh;
+}
+
+.player1 {
+  background-color: red;
+  display: table-cell;
+  width: 50vw;
+}
+
+.player2 {
+  background-color: blue;
+  display: table-cell;
+  width: 50vw;
+}
+
+.life {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
+  height: 40vh;
+}
+
+.plus-button {
+  padding-top: 20vh;
+}
+
+.minus-button {
+  padding-bottom: 20vh;
+}
+
+.player1 .plus-button:hover {
+  background-color: hotpink;
+}
+.player1 .minus-button:hover {
+  background-color: hotpink;
+}
+.player2 .plus-button:hover {
+  background-color: cornflowerblue;
+}
+.player2 .minus-button:hover {
+  background-color: cornflowerblue;
+}
+.player1 .plus-button:active {
+  background-color: hotpink;
+}
+.player1 .minus-button:active {
+  background-color: hotpink;
+}
+.player2 .plus-button:active {
+  background-color: cornflowerblue;
+}
+.player2 .minus-button:active {
+  background-color: cornflowerblue;
+}
+
+.reset-button {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
+  background-color: black;
+  font-size: 10vh;
+  height: 20vh;
+}
+
+.reset-button:hover {
+  background-color: gray;
+}
+
+.reset-button:active {
+  background-color: gray;
+}
